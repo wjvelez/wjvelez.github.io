@@ -1,6 +1,10 @@
 
 body{
-    background: rgba(93, 92, 97, 0.8);
+    /*background: rgba(93, 92, 97, 0.8);*/
+    background: url(../Imagenes/laboratorio.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -9,6 +13,11 @@ body{
     margin-bottom: 50px;
     /*background: rgba(93, 92, 97, 0.8);*/
     color: white;
+}
+
+#contenido h3{
+    color: black;
+    font-weight: bold;
 }
 
 .muestras th{
