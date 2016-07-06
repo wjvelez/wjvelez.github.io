@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Centros M&eacute;dicos</title>
+    <title>Laboratorista</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -14,12 +14,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
     <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    
+    <style>
+        body{
+            min-width: 330px;
+            /*background: url(Imagenes/"laboratorio.jpg") no-repeat center center;*/
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/estiloLab.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+    <script type="text/javascript" src="scripts/laboratorista.js"></script>
 
 </head>
 
@@ -47,10 +59,22 @@
         </div>
     </nav>
     
-
     
-
-    
+    <section id="contenido">
+        <div id="muestras" class="muestras container">
+            <h3>Muestras</h3>
+            <hr>
+            <table class="table table-bordered tabla-resultado">
+                <tr class="text-center">
+                    <th>#</th>
+                    <th>Resultado</th>
+                    <th>Codigo</th>
+                    <th>Estado</th>
+                </tr>
+            </table>
+ 
+        </div>    
+    </section>
     
 
 
