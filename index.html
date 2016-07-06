@@ -1,109 +1,93 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name=“keywords” content="Ejemplo" />
-        <meta name=“keywords” content="HTML5,CSS3" />
+        <meta charset="UTF-8">
+        <title>Salud Primero S.A.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/estilos.css">
-        <title>Curriculum Vitae</title>
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="styles/styles.css">
+        
+        <style>
+            body {
+                /* Margin bottom by footer height */
+                padding-top: 45px;
+                margin-bottom: 60px;
+                background: url("../Imagenes/fondo.jpg") no-repeat center center;
+                background-size: cover;
+                background-attachment: fixed;
+                font-family: 'Ubuntu', sans-serif;
+            }
+        </style>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+
+
     </head>
     <body>
-        <header>
-            <h1>Washington Velez</h1>
-        </header>
-
-        <nav id="menu">
-            <ul>
-                <li class="lista"> <a href="#info">Información personal</a></li>                
-                <li> <a href="#edu">Educación</a></li>
-                <li> <a href="#hab">Habilidades</a></li>
-                <li> <a href="#exp">Experiencia</a></li>
-                <li> <a href="#pro">Proyectos</a></li>
-                <li> <a href="#ref">Referencias</a></li>
-            </ul>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Salud Primero S.A.</a>
+                </div>
+            </div>
         </nav>
-        <div class="clear"></div>
-
-        <section>
-            <article>
-                <h1 id="info">Información Personal</h1>
-                <ul>
-                    <li>Nombres: Washington Jamil</li>
-                    <li>Apellidos: Vélez Navarrete</li>
-                    <li>Fecha de Nacimiento: 14 de Febrero de 1994</li>
-                    <li>Cédula: 1312897406</li>
-                    <li>Telefono:<a href="tel: 0989057872">0989057872</a></li>
-                    <li>Dirección: Sauces IX</li>
-                    <li>Correo: <a href="mailto: wjvelez@fiec.espol.edu.ec">wjvelez@fiec.espol.edu.ec</a></li>
-                </ul>
-            </article>
-
-            <article>
-                <h1 id="edu">Educación</h1>
-                <ul>
-                    <li>Primaria: Escuela Niño Jesús. Portoviejo-Manabí 2005</li>
-                    <li>Secundaria: Colegio Tecnico Industrial Latinomaericano. Portoviejo-Manabí 2011</li>
-                    <li>Superior: Escuela Superior Politécnica del Litoral. 2011 - actualidad</li>
-                </ul>
-            </article>
-
-
-            <article>
-                <h1 id="hab">Habilidades</h1>
-                <ul>
-                    <li>Manejo de utilitarios de Office</li>
-                    <li>Programación en Scilab, C, C#, Java, Python</li>
-                </ul>
-            </article>
-
-
-            <article>
-                <h1 id="exp">Experiencia</h1>
-                <ul>
-                    <li>Mantenimiento técnico de computadores de escritorio</li>
-  
-                </ul>
-            </article>
-
-
-            <article>
-                <h1 id="pro">Proyectos</h1></h1>
-                <ul>
-                    <li>
-                        <h5>Sistema para control de alquiler de maquinaria Pesada</h5>
-                        <p style="text-align: justify ">Proyecto para la materia Sistemas de Bases de Datos I, se creo una base de datos de las maquinarias de una empresa. se diseño una aplicación de escriotrio con el lenguaje C# que se conectaba a esa base de datos relacional creada en MySQL<br>
-                        </p>
-                    </li>
+        
+        <div id="contenido" class="container">
+            <div id="bienvenida" class="container-fluid">
+                <div class="principal col-md-12">
+                    <div class="panel-princ col-md-8">
+                        <div class="presentacion">
+                            <h1>Bienvenido</h1>
+                            <br>
+                            <p>Salud Primero S.A. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit harum voluptates doloribus, totam, commodi, maxime Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium neque pariatur quis ipsam, excepturi, magni dolores in, temporibus omnis cum maxime aut qui. Est voluptas, ipsam in aliquid vero culpa!, cum earum ea dolorem quae enim animi quam esse. Esse eveniet quibusdam, aspernatur veritatis nostrumlidades.</p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="panel-princ col-md-4">
+                       <div class="login">
+                           <form role="form-signin">
+                               <h2 class="form-signin-heading">Ingresar</h2>
+                               <div class="form-group">
+                                   <label for="usr">Usuario:</label>
+                                   <input type="text" class="form-control" id="usr">
+                               </div>
+                               <div class="form-group">
+                                   <label for="pwd">Contraseña:</label>
+                                   <input type="password" class="form-control" id="pwd">
+                               </div>
+                               <button class="btn btn-primary btn-block">Aceptar</button>
+                           </form>       
+                       </div>
+                        
+                    </div>
                     
-                    
-                </ul>
-            </article>
-
-            <article>
-                <h1 id="ref">Referencias</h1>
-                <ul>
-                    <li>Lcda. Maritza Baidal. Teléfono: 0994127346</li>
-                    <li>Ing. Walter Quiñónez. Teléfono: 0984615133</li>
-                </ul>
-            </article>
-
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+           <div class="container-fluid">
+               <p class="copyright text-muted small">Copyright &copy; 2016. Todos los derechos reservados</p>              
+           </div>
             
-
-
-        </section>
-
-        <aside>
-            <blockquote>Ing. CIencias Computacionales</blockquote>
-            <blockquote>
-                Github: <a href="https://github.com/wjvelez"> https://github.com/wjvelez</a>
-            </blockquote>
-        </aside>
-
-        <footer style="text-align: center">
-            <small>wjvelez Copyrigth &copy; 2015</small>
         </footer>
 
+        
     </body>
 </html>
+
+
