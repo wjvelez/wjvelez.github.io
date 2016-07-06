@@ -5,10 +5,8 @@
     "Cedula":"09023451234", 
     "Email":"jpiguav@algo.com", 
     "Direccion":"algun lugar", 
-    "Telefonos":[
-        "0991231234",
-        "042-123456"
-    ]},
+    "Telefono": "0991231234",
+    },
     
     {"Usuario":"paciente",
      "Nombres":"Juan2", 
@@ -16,9 +14,6 @@
      "Cedula":"09023451245", 
      "Email":"jpiguav2@algo.com", 
      "Direccion":"algun lugar2", 
-     "Telefonos":[
-         "0991231222",
-         "042-123422"
-     ]}    
-
+     "Telefono": "0991231222"
+    }
 ]

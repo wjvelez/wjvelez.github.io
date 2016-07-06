@@ -1,5 +1,6 @@
 $(document).ready(function(){
     cargarCentrosMed();
+    cargarDatos();
 });
     
 
@@ -213,16 +214,22 @@ function cargarCentrosMed(){
             mapaBody.append(mapa);
 
             // Agrego el mapa a la fila 2
-            fila2.append(mapaColumn);
-
-
-            
-            
-
-            
-            
-            
+            fila2.append(mapaColumn);            
         });
         
+    });
+}
+
+function cargarDatos(){
+    $.getJSON("../json/pacientes.json", function(data){
+        $.each(data,function(i){
+            $("#nombre").append(data[i].Nombres);
+            $(".#apellidos").append(data[i].Apellidos);
+            $(".#cedula").append(data[i].Cedula);
+            $(".#email").append(data[i].Email);
+            $(".#dir").append(data[i].Direccion);
+            $(".#telf").append(data[i].Telefono);
+            console.log(data[i].Nombres);
+        });
     });
 }

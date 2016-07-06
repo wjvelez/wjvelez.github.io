@@ -58,6 +58,7 @@
                     <li><a href="#examenes">Mis Ex&aacute;menes</a></li>
                     <li><a href="#centros-medicos">Centros M&eacute;dicos</a></li>
                     <li><a href="#datos-pac">Mis Datos</a></li>
+                    <li><a href="index.html"><span class="glyphicon glyphicon-off"></span></a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -105,26 +106,42 @@
         <div id="datos-pac" class="articulo container">
             <h3>Mis Datos</h3>
             <hr>
+            <form class="datos-pac" role="form">
+                <div class="form-group">
+                    <label for="name">Nombres:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese nombres">
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese apellidos">
+                </div>
+                <div class="form-group">
+                    <label for="id">C&eacute;dula:</label>
+                    <input type="text" class="form-control" id="cedula" placeholder="Ingrese número de identificación">
+                </div>
+                <div class="form-group">
+                    <label for="email">email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese email">
+                </div>
+                <div class="form-group">
+                    <label for="dir">Direcci&oacute;n:</label>
+                    <input type="text" class="form-control" id="dir" placeholder="Ingrese dirección">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Tel&eacute;fono:</label>
+                    <input type="tel" class="form-control" id="telf" placeholder="Ingrese Teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" class="form-control" id="ciudad" placeholder="Ingrese Ciudad">
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
         </div>    
     </section>
     
 
-    <!-- Modal con slider -->
-    
-    
-    <!-- 
-    <div class="centros-medicos">
-        <div class="centro-med">
-            <div class="lado frente">
-                <figure>
-                    <img src="Imagenes/carrusel/0001.jpg" alt="">
-                </figure>
-            </div>
-            <div class="lado atras">
-                <p>Informacion</p>
-            </div>
-        </div>
-    </div> -->
     
 
     <footer class="footer">
